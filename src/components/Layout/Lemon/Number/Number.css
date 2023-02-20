@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.lemon_circle {
+    display: flex;
+    list-style-type: none;
+    padding: 1%;
+}
+
+.circle_border {
+    margin-left: 120%;
+    margin-right: 15.3%;
+    margin-top: 20%;
+}
+
+.circle_color {
+    margin-left: 120%;
+    margin-right: 15.3%;
+    margin-top: -70%;
+}
+
+.lemon_h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.lemon_h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3F4255;
+    margin-left: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 120%;
+}

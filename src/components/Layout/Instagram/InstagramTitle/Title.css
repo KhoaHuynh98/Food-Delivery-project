@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.title_h1 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #313030;
+}

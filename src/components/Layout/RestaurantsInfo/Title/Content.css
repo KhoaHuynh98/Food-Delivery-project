@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.restaurant_title {
+    height: 48px;
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-between;
+}
+
+.restaurant_h1 {
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 8%;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.restaurant_button {
+    border: none;
+    height: 48px;
+    border-radius: 4px;
+    padding: 16px 24px 16px 24px;
+    background-color: #F2F4FA;
+    right: 0.08%;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 8%;
+    color: #9093A6;
+    display: flex;
+    font-style: normal;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.typebox {
+    display: flex;
+    height: 9vh;
+    width: 23.33%;
+    margin-left: 56%;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+}
+
+.typebox_img {
+    margin-left: 70%;
+    margin-top: 94%;
+}
+
+
+.typebox_text {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #9093A6;
+    padding: 3vh 3% 3vh 6%;
+    font-style: normal;
+    display: flex;
+
+}

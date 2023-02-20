@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.sendbox {
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 7%;
+    margin-left: 79.5%;
+    border-radius: 4px;
+    background-color: #FFE145;
+    gap: 10px;
+    border: none;
+    font-family: 'Martel Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B79C10;
+}

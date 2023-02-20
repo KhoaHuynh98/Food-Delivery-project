@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.restaurant_box {
+    width: 87%;
+    height: 392px;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+

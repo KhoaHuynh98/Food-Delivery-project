@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.instagram_picture {
+    margin-top: 4%;
+    display: flex;
+    gap: 2%;
+    list-style-type: none;
+}

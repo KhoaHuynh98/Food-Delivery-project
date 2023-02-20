@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.delivery {
+    width: 50%;
+    height: 56px;
+    padding-right: 34%;
+    display: flex;
+
+}
+
+.delivery_h2 {
+    font-family: 'Martel Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F4255;
+}

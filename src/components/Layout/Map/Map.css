@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.map {
+    background-image: url("../../../assets/Map.png");
+    width: 89%;
+    height: 85vh;
+    margin-left: 7%;
+    margin-top: 3%;
+}

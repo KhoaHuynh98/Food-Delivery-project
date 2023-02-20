@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.special {
+    width: 87%;
+    height: 40vh;
+    margin-left: 6.4%;
+}
+
+.special_title {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
