@@ -1,11 +1,16 @@
 import React from "react";
 import "./Button.css";
 
-function Button() {
+function Button({ setShowList, showList }) {
   return (
     <div>
       <div>
-        <button className="special_button">show all</button>
+        <button
+          onClick={() => setShowList(!showList)}
+          className="special_button"
+        >
+          show all
+        </button>
       </div>
     </div>
   );

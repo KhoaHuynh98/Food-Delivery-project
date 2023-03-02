@@ -4,7 +4,6 @@
 
 .special {
     width: 87%;
-    height: 40vh;
     margin-left: 6.4%;
 }
 
@@ -12,4 +11,12 @@
     display: flex;
     justify-content: space-between;
     margin: 2%;
+}
+
+.special .showListClass{
+    display: none;
+}
+
+.special .showListActive{
+    display: block;
 }

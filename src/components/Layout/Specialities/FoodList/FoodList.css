@@ -40,3 +40,21 @@
     letter-spacing: 0.5px;
     color: #313030;  
 }
+
+.show_more {
+    display: flex;
+    flex-wrap: wrap;
+}
+.show_more .cardProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.show_more .cardProduct .imgContainer img{
+    width: 100%;
+}
+
+.show_more .cardProduct {
+    width: 25%;
+    gap: 20px;
+}
