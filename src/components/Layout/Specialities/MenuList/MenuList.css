@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.food_list {
+    display: flex;
+    gap: 24px;
+    height: 120px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
+    list-style-type: none;
+}
+
+.food_list_item {
+    margin-left: 20px;
+}
+
+.food_list_img {
+    height: 48px;
+    width: 48px;
+    margin-top: 24px;
+    border-radius: 0px;
+    
+}
+
+.food_list_name {
+    height: 24px;
+    width: 120px;
+    left: 8px;
+    top: 88px;
+    font-family: 'Martel Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 0.5px;
+    color: #313030;  
+}

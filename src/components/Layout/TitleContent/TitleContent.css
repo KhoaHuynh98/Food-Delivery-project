@@ -10,10 +10,10 @@
 }
 
 .main_content {
-    width: 30%;
+    width: 60%;
     height: 20%;
-    margin-left: 7%;
-    margin-top: 13%;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .main_content_intro {
@@ -25,47 +25,38 @@
     color: #3F4255;
 }
 
-.two_buttons {
-    margin-left: 7%;
-    padding-top: 4%;
-    gap: 4%;
+.buttons_photos {
     display: flex;
 }
 
-.title_content_button {
-    width: 12%;
+.left_content {
+    width: 50%;
+}
+
+.right_content {
+    width: 50%;
+}
+
+.title_button {
     border-radius: 4px;
     padding: 16px 24px 16px 24px;
     border: 2px solid #FFE145;
-    /* background-color: #E5E5E5; */
-}
-
-.main_content_photos {
-    display: flex;
-    width: 62%;
-    height: 70%;
-    margin-left: 44%;    
-    margin-top: -26%;
+    margin: 4px;
 }
 
 .salad_photo {
     width: 90%;
-    height: 90%;
     filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1));
 }
 
 .rucola_photo {
-    width: 56%;
-    height: 28%;
+    width: 150px;
+    height: 150px;
     transform: rotate(-31.51deg);
-    margin-left: -410%;
-    margin-top: 212%;
 }
 
 .photos_description {
-    width: 9%;
-    height: 10%;
-    margin-left: 40%;
+    margin-left: 100px;
 }
 
 .photos_description h2 {

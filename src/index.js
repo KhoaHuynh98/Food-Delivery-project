@@ -10,6 +10,7 @@ import Specialities from "./components/Layout/Specialities/Specialities";
 import Lemon from "./components/Layout/Lemon/Lemon";
 import Map from "./components/Layout/Map/Map";
 import Instagram from "./components/Layout/Instagram/Instagram";
+import Footer from "./components/Layout/Footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,5 +25,6 @@ root.render(
     <Lemon />
     <Map />
     <Instagram />
+    <Footer />
   </React.StrictMode>
 );
