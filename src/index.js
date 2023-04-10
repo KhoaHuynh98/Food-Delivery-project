@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import store from "./redux/store";
+import { Provider } from "react-redux";
+import "bootstrap/dist/css/bootstrap.min.css";
 import TitleContent from "./components/Layout/TitleContent/TitleContent";
 import TitleFooter from "./components/Layout/TitleFooter/TitleFooter";
 import TitleHeader from "./components/Layout/TitleHeader/TitleHeader";
@@ -15,16 +18,18 @@ import Footer from "./components/Layout/Footer/Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <TitleHeader />
-    <TitleContent />
-    <TitleFooter />
-    <RestaurantsInfo />
-    <NearestRestaurants />
-    <Specialities />
-    <Lemon />
-    <Map />
-    <Instagram />
-    <Footer />
+    <Provider store={store}>
+      <App />
+      <TitleHeader />
+      <TitleContent />
+      <TitleFooter />
+      <RestaurantsInfo />
+      <NearestRestaurants />
+      <Specialities />
+      <Lemon />
+      <Map />
+      <Instagram />
+      <Footer />
+    </Provider>
   </React.StrictMode>
 );

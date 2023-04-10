@@ -1,10 +1,9 @@
 .nearest {
     height: 40vh;
-    width: 100%;
     background-color: #F2F4FA;
-    display: flex;
+    /* display: flex; */
 }
 
-.nearest_box {
-    display: flex;
+.nearest_content {
+    width: 50%;
 }

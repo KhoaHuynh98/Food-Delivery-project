@@ -12,7 +12,6 @@
 .main_content {
     width: 60%;
     height: 20%;
-    margin-left: 100px;
     margin-top: 50px;
 }
 
@@ -31,10 +30,12 @@
 
 .left_content {
     width: 50%;
+    padding: 60px
 }
 
 .right_content {
     width: 50%;
+    position: relative;
 }
 
 .title_button {
@@ -50,13 +51,21 @@
 }
 
 .rucola_photo {
+    position: absolute;
     width: 150px;
     height: 150px;
     transform: rotate(-31.51deg);
+    z-index: -1;
+    margin-left: -100%;
+    margin-top: 60%;
 }
 
 .photos_description {
+    position: absolute;
     margin-left: 100px;
+    z-index: -1;
+    margin-left: 70%;
+    margin-top: -10%
 }
 
 .photos_description h2 {

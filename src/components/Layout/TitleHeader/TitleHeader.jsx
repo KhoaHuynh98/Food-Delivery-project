@@ -1,9 +1,15 @@
 import React from "react";
 import "./TitleHeader.css";
 import person from "../../../assets/title-header/person.png";
-import cart from "../../../assets/title-header/cart.png";
+import ModalCart from "../../Modal/Modal";
+import CartIcon from "./CartIcon/CartIcon";
+import { useSelector } from "react-redux";
+import { cartSelector } from "../../../redux/selector";
+import DarkMode from "./DarkMode/DarkMode";
 
 function TitleHeader() {
+  const productCartStore = useSelector(cartSelector);
+  console.log(productCartStore);
   return (
     <div>
       <div className="title">
@@ -17,9 +23,11 @@ function TitleHeader() {
             <img src={person} alt="" />
             <h2 className="log_in_h2">Log in</h2>
           </div>
-          <div className="cart">
-            <img src={cart} alt="" />
-            <div className="cart_quantity">0</div>
+          <ModalCart>
+            <CartIcon />
+          </ModalCart>
+          <div>
+            <DarkMode />
           </div>
         </div>
       </div>
